@@ -1,0 +1,8 @@
+.secondcontainer{
+    justify-content: center;
+}
+label{
+    margin: 10%;
+    font-size: 3rem;
+    background-color: var(--gold);
+}

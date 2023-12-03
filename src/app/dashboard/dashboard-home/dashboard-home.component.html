@@ -1,0 +1,13 @@
+<div class="secondcontainer">
+    <label>Top Heroes</label>
+    <div class="row">
+      <div
+        class="col"
+        *ngFor="let hero of heroData"
+        [routerLink]="['/detail',hero.id]">
+        <div class="hero-box p-2 mb-4">
+          {{ hero.name }}
+        </div>
+      </div>
+    </div>
+  </div>

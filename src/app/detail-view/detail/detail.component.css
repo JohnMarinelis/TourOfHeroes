@@ -1,0 +1,13 @@
+.secondcontainer{
+    align-items: flex-start;
+}
+
+label.heroname{
+    color:var(--gold);
+    margin-right: 5px;
+}
+
+.nav-link{
+    border-radius: 5px;
+    margin: 2%;
+}

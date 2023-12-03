@@ -1,0 +1,9 @@
+<div class="secondcontainer">
+    <label>{{this.heroData.name}} - Details</label>
+    <h5>Id: {{heroId}}</h5>
+    <div>
+        <label class="heroname">Hero name:</label>
+        <input type="text" [(ngModel)]="this.heroData.name">
+    </div>
+    <button class="nav nav-link" (click)="goBack()">Back</button>
+</div>

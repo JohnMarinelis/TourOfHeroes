@@ -1,0 +1,19 @@
+<!-- <div class="container"> -->
+  <div class="secondcontainer">    
+    <label>My heroes</label>
+    <!-- <div class="hero-list"> -->
+      <ul>
+        <li *ngFor="let hero of heroData">
+          <a class="buttontemplate" [routerLink]="['/detail', hero.id]">
+            <span 
+            *ngFor="let attribute of heroDataKeys"
+            [ngClass]="attribute.key==='id'?'idfield':''" 
+            >{{hero[attribute.key]}}</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- </div> -->
+<!-- </div> -->
+<!-- class="list-group-item border-0 py-1" 
+class="p-2 bg-light rounded d-flex" -->
